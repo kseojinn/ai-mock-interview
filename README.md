@@ -25,7 +25,6 @@ AI Mock Interview는 **완전 무료**로 사용할 수 있는 한국어 특화 
 
 - Python 3.8 이상
 - 8GB+ RAM (권장)
-- 인터넷 연결 (초기 모델 다운로드용)
 
 ### 2. Ollama 설치
 
