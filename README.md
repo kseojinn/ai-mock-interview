@@ -1,4 +1,4 @@
-# 🎯 AI Mock Interview System
+# AI Mock Interview System
 
 한국어 특화 AI 모의 면접 시스템 - Ollama & LangChain 기반
 
@@ -7,11 +7,11 @@
 [![Ollama](https://img.shields.io/badge/Ollama-Latest-green.svg)](https://ollama.ai)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 📖 소개
+## 소개
 
 AI Mock Interview는 **완전 무료**로 사용할 수 있는 한국어 특화 AI 면접 시스템입니다. Ollama를 통해 로컬에서 실행되며, 개인정보 보호와 무제한 사용이 가능합니다.
 
-### ✨ 주요 특징
+### 주요 특징
 
 - 🇰🇷 **한국어 특화**: 완벽한 한국어 면접 진행
 - 🆓 **완전 무료**: API 키 불필요, 무제한 사용
@@ -20,7 +20,7 @@ AI Mock Interview는 **완전 무료**로 사용할 수 있는 한국어 특화 
 - ⚡ **실시간 피드백**: 각 답변에 대한 즉시 평가
 - 📊 **종합 평가**: 면접 완료 후 상세한 분석 제공
 
-## 🚀 빠른 시작
+## 빠른 시작
 
 ### 1. 필요 조건
 
@@ -74,7 +74,7 @@ streamlit run ai-mock-interview.py
 # 브라우저에서 자동 실행: http://localhost:8501
 ```
 
-## 💻 시스템 요구사항
+## 시스템 요구사항
 
 | 구성 요소 | 최소 사양 | 권장 사양 |
 |-----------|-----------|-----------|
@@ -83,7 +83,7 @@ streamlit run ai-mock-interview.py
 | **CPU** | 듀얼코어 | 쿼드코어+ |
 | **Python** | 3.8+ | 3.10+ |
 
-### 🎛️ 모델별 메모리 사용량
+###  모델별 메모리 사용량
 
 | 모델 | 크기 | RAM 요구량 | 품질 | 속도 |
 |------|------|------------|------|------|
@@ -91,7 +91,7 @@ streamlit run ai-mock-interview.py
 | `qwen2.5:7b` | 4.4GB | 8GB | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | `qwen2.5:14b` | 9GB | 16GB | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
 
-## 🎯 면접 유형별 특징
+## 면접 유형별 특징
 
 ### 🏛️ 공무원 면접
 - **중점 평가**: 공직가치, 봉사정신, 공정성
@@ -113,22 +113,16 @@ streamlit run ai-mock-interview.py
 - **주요 질문**: 성취경험, 목표의식, 스트레스 관리
 - **특화 기능**: 회사 기여도, 경력 계획
 
-## 📁 프로젝트 구조
+## 프로젝트 구조
 
 ```
 ai-mock-interview/
 ├── ai-mock-interview.py      # 메인 면접 시스템
 ├── requirements.txt          # Python 의존성
 ├── README.md                # 프로젝트 문서
-├── LICENSE                  # MIT 라이선스
-├── .gitignore              # Git 무시 파일
-└── docs/                   # 추가 문서
-    ├── installation.md     # 상세 설치 가이드
-    ├── troubleshooting.md  # 문제 해결 가이드
-    └── screenshots/        # 스크린샷
 ```
 
-## 🔧 설정 및 커스터마이징
+## 설정 및 커스터마이징
 
 ### 모델 변경
 
@@ -153,7 +147,7 @@ self.max_questions = 8  # 원하는 질문 수로 변경
 timeout=360  # 초 단위 (기본: 6분)
 ```
 
-## 🚨 문제 해결
+## 문제 해결
 
 ### 일반적인 문제들
 
@@ -167,6 +161,7 @@ ollama serve
 ```bash
 # 해결책: 더 작은 모델 사용
 ollama pull llama3.2:latest
+# 또는 timeout 시간 늘리기
 ```
 
 #### 3. "메모리 부족 오류"
@@ -195,7 +190,7 @@ ollama list
 2. **충분한 RAM 확보**
 3. **백그라운드 앱 최소화**
 
-## 🤝 기여하기
+## 기여하기
 
 프로젝트 개선에 참여해 주세요!
 
@@ -205,39 +200,20 @@ ollama list
 4. **Push** to branch (`git push origin feature/amazing-feature`)
 5. **Pull Request** 생성
 
-### 기여 가능한 영역
-
-- 🐛 **버그 수정**
-- ✨ **새로운 기능 추가**
-- 📚 **문서 개선**
-- 🌍 **다국어 지원**
-- 🎨 **UI/UX 개선**
-- ⚡ **성능 최적화**
-
-## 📄 라이선스
+## 라이선스
 
 이 프로젝트는 [MIT 라이선스](LICENSE) 하에 배포됩니다.
 
-## 🙏 감사의 말
+## 감사의 말
 
 - **[Ollama](https://ollama.ai)** - 로컬 LLM 실행 플랫폼
 - **[Streamlit](https://streamlit.io)** - 웹 애플리케이션 프레임워크
 - **[Meta](https://github.com/facebookresearch/llama)** - Llama 모델
 - **[Alibaba](https://github.com/QwenLM/Qwen)** - Qwen 모델
 
-## 📞 지원 및 문의
-
-- **GitHub Issues**: [이슈 제기](https://github.com/kseojinn/ai-mock-interview/issues)
-- **Discussions**: [토론 참여](https://github.com/kseojinn/ai-mock-interview/discussions)
-- **Email**: kseojinn@example.com
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=kseojinn/ai-mock-interview&type=Date)](https://star-history.com/#kseojinn/ai-mock-interview&Date)
-
 ---
 
-## 📊 사용 통계
+## 사용 통계
 
 ![GitHub stars](https://img.shields.io/github/stars/kseojinn/ai-mock-interview)
 ![GitHub forks](https://img.shields.io/github/forks/kseojinn/ai-mock-interview)
@@ -245,5 +221,3 @@ ollama list
 ![GitHub downloads](https://img.shields.io/github/downloads/kseojinn/ai-mock-interview/total)
 
 **⭐ 이 프로젝트가 도움이 되셨다면 Star를 눌러주세요!**
-
-**🎯 성공적인 면접을 위해 열심히 연습하세요! 화이팅! 🎯**
