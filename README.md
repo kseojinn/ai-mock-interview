@@ -201,11 +201,4 @@ ollama list
 
 ---
 
-## 사용 통계
-
-![GitHub stars](https://img.shields.io/github/stars/kseojinn/ai-mock-interview)
-![GitHub forks](https://img.shields.io/github/forks/kseojinn/ai-mock-interview)
-![GitHub issues](https://img.shields.io/github/issues/kseojinn/ai-mock-interview)
-![GitHub downloads](https://img.shields.io/github/downloads/kseojinn/ai-mock-interview/total)
-
 **⭐ 이 프로젝트가 도움이 되셨다면 Star를 눌러주세요!**
