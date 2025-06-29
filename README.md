@@ -67,7 +67,7 @@ ollama serve
 
 ```bash
 # 웹 인터페이스 실행
-streamlit run ai-mock-interview.py
+python -m streamlit run ai-mock-interview.py
 
 # 브라우저에서 자동 실행: http://localhost:8501
 ```
