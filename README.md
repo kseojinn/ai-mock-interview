@@ -4,7 +4,7 @@
 
 ## 소개
 
-AI Mock Interview 한국어 특화 AI 면접 시스템입니다. Ollama를 통해 로컬에서 실행되며, 개인정보 보호와 무제한 사용이 가능합니다.
+AI Mock Interview 한국어 특화 AI 면접 시스템입니다. Ollama를 통해 로컬에서 실행됩니다.
 
 ### 주요 특징
 
