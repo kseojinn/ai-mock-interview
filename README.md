@@ -2,11 +2,6 @@
 
 한국어 특화 AI 모의 면접 시스템 - Ollama & LangChain 기반
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
-[![Ollama](https://img.shields.io/badge/Ollama-Latest-green.svg)](https://ollama.ai)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ## 소개
 
 AI Mock Interview 한국어 특화 AI 면접 시스템입니다. Ollama를 통해 로컬에서 실행되며, 개인정보 보호와 무제한 사용이 가능합니다.
@@ -85,9 +80,9 @@ python -m streamlit run ai-mock-interview.py
 
 | 모델 | 크기 | RAM 요구량 | 품질 | 속도 |
 |------|------|------------|------|------|
-| `llama3.2:latest` | 2GB | 4GB | ⭐⭐ | ⭐⭐⭐⭐⭐ |
-| `qwen2.5:7b` | 4.4GB | 8GB | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| `qwen2.5:14b` | 9GB | 16GB | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| `llama3.2:latest` | 2GB | 4GB | ⭐⭐ | ⭐⭐⭐⭐ |
+| `qwen2.5:7b` | 4.4GB | 8GB | ⭐⭐⭐ | ⭐⭐⭐ |
+| `qwen2.5:14b` | 9GB | 16GB | ⭐⭐⭐⭐ | ⭐⭐ |
 
 ## 면접 유형별 특징
 
@@ -174,31 +169,3 @@ ollama pull smaller_model
 # 해결책: 모델명 확인
 ollama list
 ```
-
-### 성능 최적화
-
-#### 메모리 부족 시
-1. **브라우저 탭 정리**
-2. **불필요한 프로그램 종료**
-3. **더 작은 모델 사용**
-4. **가상 메모리 증가**
-
-#### 속도 개선
-1. **SSD 사용 권장**
-2. **충분한 RAM 확보**
-3. **백그라운드 앱 최소화**
-
-## 라이선스
-
-이 프로젝트는 [MIT 라이선스](LICENSE) 하에 배포됩니다.
-
-## 감사의 말
-
-- **[Ollama](https://ollama.ai)** - 로컬 LLM 실행 플랫폼
-- **[Streamlit](https://streamlit.io)** - 웹 애플리케이션 프레임워크
-- **[Meta](https://github.com/facebookresearch/llama)** - Llama 모델
-- **[Alibaba](https://github.com/QwenLM/Qwen)** - Qwen 모델
-
----
-
-**⭐ 이 프로젝트가 도움이 되셨다면 Star를 눌러주세요!**
