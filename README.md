@@ -139,33 +139,3 @@ self.max_questions = 8  # 원하는 질문 수로 변경
 # 65번째 줄
 timeout=360  # 초 단위 (기본: 6분)
 ```
-
-## 문제 해결
-
-### 일반적인 문제들
-
-#### 1. "Ollama 서버에 연결할 수 없습니다"
-```bash
-# 해결책: Ollama 서버 시작
-ollama serve
-```
-
-#### 2. "응답 시간이 초과되었습니다"
-```bash
-# 해결책: 더 작은 모델 사용
-ollama pull llama3.2:latest
-# 또는 timeout 시간 늘리기
-```
-
-#### 3. "메모리 부족 오류"
-```bash
-# 해결책: 다른 프로그램 종료 후 재시작
-ollama rm large_model
-ollama pull smaller_model
-```
-
-#### 4. "모델을 찾을 수 없습니다"
-```bash
-# 해결책: 모델명 확인
-ollama list
-```
