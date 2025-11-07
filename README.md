@@ -19,7 +19,7 @@ AI Mock Interview 한국어 특화 AI 면접 시스템입니다. Ollama를 통�
 ### 1. 필요 조건
 
 - Python 3.8 이상
-- 8GB+ RAM (권장)
+- 8GB+ RAM 이상상
 
 ### 2. Ollama 설치
 
@@ -80,8 +80,8 @@ python -m streamlit run ai-mock-interview.py
 
 | 모델 | 크기 | RAM 요구량 | 품질 | 속도 |
 |------|------|------------|------|------|
-| `llama3.2:latest` | 2GB | 4GB | ⭐⭐ | ⭐⭐⭐⭐ |
-| `qwen2.5:7b` | 4.4GB | 8GB | ⭐⭐⭐ | ⭐⭐⭐ |
+| `llama3.2:latest` | 2GB | 4GB | ⭐ | ⭐⭐⭐⭐ |
+| `qwen2.5:7b` | 4.4GB | 8GB | ⭐⭐ | ⭐⭐⭐ |
 | `qwen2.5:14b` | 9GB | 16GB | ⭐⭐⭐⭐ | ⭐⭐ |
 
 ## 면접 유형별 특징
